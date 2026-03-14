@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prak JS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Hallooo Selamat Datang di project praktikum saya</h1>
+    <h1>Hello i'm Rafie Rasydan Wahyudi</h1>
+    <hr>
+
+    <h3>1. jadi ini adalah contoh Inline JS</h3>
+    <p>Klik tombol di bawah ini buat lihat hasil perhitungan matematika langsung</p>
+    <button type="button" onclick="document.write(10 + 20)">Hitung 10 + 20</button>
+    <hr>
+
+    <h3>2. Contoh tanggal (ini pake eksternal js)</h3>
+    <div> id="tanggal-hari-ini"</div>
+    <br>
+    <button onclick="tampilAlert()">Klik Alert dari External JS</button>
+
+    <hr>
+
+    <h3>3. di sini aku pakai internal js</h3>
+    <p>Klik tombol ini untuk memicu alert yang di tulis di dalam file HTML ini:</p>
+    <button onclick="pesanInternal()">Summon alert internal</button>
+
+    <script>
+        function pesanInternal()
+        {
+            alert("Thankyou for summoning me! mueheheh");
+        }
+    </script>
+
+    <script src="script.js"></script>
+</body>
+</html>
