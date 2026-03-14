@@ -18,7 +18,7 @@
         <div class="card">
             <h3>1. Inline JS</h3>
             <p>Klik tombol di bawah ini buat lihat hasil perhitungan matematika langsung</p>
-            <button class="btn-inline" type="button" onclick="document.write(10 + 20)">Hitung 10 + 20</button>
+            <button class="btn-inline" type="button" onclick="this.innerHTML = 'Hasilnya: ' + (10 + 20)">Hitung 10 + 20</button>
         </div>
 
         <div class="card">
@@ -36,7 +36,7 @@
 
     <script>
         function pesanInternal() {
-            alert("Thankyou for summoning me! mueheheh"); [cite: 49]
+            alert("Thankyou for summoning me! mueheheh"); 
         }
     </script>
     <script src="script.js"></script>
